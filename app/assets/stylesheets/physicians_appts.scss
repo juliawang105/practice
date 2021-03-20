@@ -1,0 +1,48 @@
+.main{
+  display: flex;
+}
+
+.physicians-index{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+  width: 300px;
+  height: 500px;
+  border: 1px solid blue;
+}
+
+.physicians{
+  text-decoration: none;
+  color: black
+}
+
+.physician-details{
+  display: flex;
+  flex-direction: column;
+}
+
+.physician-details > span:first-child{
+  font-size: 20pt;
+}
+
+.selected{
+  background-color: lightgrey;
+}
+
+.appt-header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50,126,220);
+  color: white;
+  font-weight: bold;
+}
+.appt-details{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.appt-details:nth-child(even){
+  background-color: lightgrey;
+}
